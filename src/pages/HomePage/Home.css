@@ -1,0 +1,35 @@
+.breakWord {
+    border: 2px solid #fff;
+    word-wrap: break-word;
+    width: 20px;
+    background: #4A9756;
+    position: relative;
+    padding: 5px;
+}
+
+.moveWord {
+    position: relative;
+    top: -17px;
+    left: 10px;
+}
+
+.details {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background: #4A9756;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.details:hover {
+    color: #4A9756;
+    background: #fff;
+    border: 2px solid #4A9756;
+}
+
+.loading {
+    padding: 40px;
+}
